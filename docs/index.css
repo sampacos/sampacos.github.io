@@ -1,0 +1,53 @@
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.split.cover {
+    opacity: 80%;
+    background-color: dimgrey;
+    z-index: 2;
+}
+
+.split.cover:hover {
+    opacity: 0%;
+}
+
+.left {
+    left: 0;
+}
+
+.right {
+    right: 0;
+}
+
+.container {
+    display: grid;
+    place-items: center;
+}
+
+h1 {
+    position: absolute;
+    font-size: x-large;
+    top: 15%;
+}
+
+#bodydiv {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    border: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url("images/index-background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}

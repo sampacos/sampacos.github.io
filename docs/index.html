@@ -1,5 +1,25 @@
-<html title="Sam's Page">
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Sam's Page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script src="index.js"></script>
+        <link rel="stylesheet" href="index.css">
+    </head>
     <body>
-        Hello World! Is anyone there? Oh hey!
+        <div id="bodydiv">
+            <div class="left split cover"></div>
+            <div id="left-pane" class="left split container">
+                <h1>Professional</h1>
+                <a href="https://github.com/sampacos">My GitHub</a>
+            </div>
+            <div class="right split cover"></div>
+            <div id="right-pane" class="right split container" onhover="rightPaneHover()">
+                <h1>Personal</h1>
+                <a href="badlink">Photos from my summer trip to Europe (2023)</a>
+            </div>
+        </div>
     </body>
 </html>
